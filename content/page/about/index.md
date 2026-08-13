@@ -28,11 +28,13 @@ page walks through each one.
 ## Background
 
 - **M.Sc. Data Science, AI & Digital Business** — GISMA University of Applied
-  Sciences, Berlin (2025–2027)
-- **B.Sc. Information Management** — Thames International College / Tribhuvan
-  University, Kathmandu
+  Sciences, Berlin (2025–2027, in progress)
+- **Bachelor's in Information Management (BIM)** — Tribhuvan University, Kathmandu
+  (CGPA 3.66)
 - Front-end development internship at Mandala Infosys (2024): client
   requirements, reference demos, feature prioritisation
+
+See the full [education page](/education/) for coursework and details.
 
 ## Currently
 
