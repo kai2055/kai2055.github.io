@@ -1,0 +1,51 @@
+# Top navigation menu
+[[main]]
+identifier = "home"
+name = "Home"
+url = "/"
+  [main.params]
+  icon = "home"
+  newTab = false
+
+[[main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+  [main.params]
+  icon = "user"
+
+[[main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+  [main.params]
+  icon = "code"
+
+[[main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+  [main.params]
+  icon = "archives"
+
+[[main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+  [main.params]
+  icon = "search"
+
+# Social links (shown under the avatar)
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/kai2055"
+  [social.params]
+  icon = "brand-github"
+
+[[social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/nikhil-adhikari/"
+  [social.params]
+  icon = "brand-linkedin"
