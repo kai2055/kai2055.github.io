@@ -25,17 +25,28 @@ Halfway through the programme (60 of 120 credits completed), on track to finish
 in 2027. The degree pairs core machine-learning and analytics work with the
 business context that decides whether a model ever ships.
 
-Selected modules, passed with strong marks:
+Module marks so far (pass mark 50):
 
-- **Introduction to AI and Machine Learning**
-- **AI and Applications**
-- **Methods of Prediction**
-- **Big Data Analytics**
-- **Data Visualisation and Communication**
-- **Research Methods and Scientific Work**
-- Plus digital-business modules: Innovation Management & Digital Transformation,
-  CEO Decision Making & Case Studies, CSR/ESG & Ethics, Digital Marketing &
-  Analytics, Project Management
+*AI, data & methods*
+
+- Introduction to AI and Machine Learning — **87**
+- Methods of Prediction — **84**
+- Big Data Analytics — **83**
+- Data Visualisation and Communication — **81**
+- AI and Applications — **68**
+- Research Methods and Scientific Work — **58**
+
+*Business & digital transformation*
+
+- CSR, ESG and Ethics — **90**
+- CEO Decision Making & Case Studies — **85**
+- Behavioural Competencies in Virtual Teams — **82**
+- Innovation Management and Digital Transformation — **80**
+- Project Management — **77**
+- Digital Marketing and Analytics — **77**
+
+**Current module average ≈ 79 / 100** — the programme is in progress, so this is a
+running mean of completed modules, not an official final CGPA.
 
 Thesis stage is next — my intended direction is confidential/privacy-preserving
 inference, building on the reliability theme in my project work.
@@ -67,6 +78,6 @@ toward engineering.
 ## Earlier education
 
 - **Higher Secondary (Grades 11–12), Management stream** — Little Angels' School,
-  Lalitpur · completed 2019
+  Lalitpur · completed 2019 · **GPA 3.44 / 4.0**
 - **School Leaving Certificate** — New Millennium High School, Lalitpur · 2015 ·
   First Division with Distinction (83.63%)

@@ -1,0 +1,101 @@
+/*
+*  Custom theme overrides for kai2055.github.io
+*  — Slate-blue accent + restrained motion. Reliability brand: calm, precise.
+*/
+
+/* ---- Colour: slate blue accent (light + dark) ---- */
+:root {
+    --accent-color: #3f6493;
+    --accent-color-darker: #33507a;
+    --accent-color-text: #fff;
+
+    /* Link highlight behind in-article links — slate blue, kept subtle */
+    --link-background-color: 63, 100, 147;
+    --link-background-opacity: 0.16;
+    --link-background-opacity-hover: 0.30;
+
+    &[data-scheme="dark"] {
+        --accent-color: #9fbce0;
+        --accent-color-darker: #bcd0ea;
+        --accent-color-text: #14213a;
+
+        --link-background-color: 159, 188, 224;
+        --link-background-opacity: 0.18;
+        --link-background-opacity-hover: 0.34;
+    }
+}
+
+/* ---- Card polish: soft depth + smooth hover lift ---- */
+.article-list article {
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.article-list article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 26px rgba(46, 62, 90, 0.14);
+}
+
+/* ---- Smooth transitions on interactive elements ---- */
+.article-content a,
+.article-tags a,
+.tagCloud a,
+.menu a,
+.social-menu a,
+.article-list--tile article .article-details .article-title a {
+    transition: color 0.2s ease, background 0.2s ease, transform 0.16s ease;
+}
+
+.article-tags a:hover,
+.tagCloud a:hover {
+    transform: translateY(-1px);
+}
+
+/* Gentle animated underline for links inside prose */
+.article-content a {
+    text-decoration: none;
+    background-image: linear-gradient(var(--accent-color), var(--accent-color));
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 0.25s ease, color 0.2s ease;
+}
+
+.article-content a:hover {
+    background-size: 100% 2px;
+    color: var(--accent-color);
+}
+
+/* ---- Restrained entrance motion (accessibility-safe) ---- */
+@media (prefers-reduced-motion: no-preference) {
+    @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .main-article,
+    .article-list article,
+    #sidebar,
+    .widget {
+        animation: fadeUp 0.5s ease both;
+    }
+
+    /* subtle stagger so list cards cascade in rather than pop together */
+    .article-list article:nth-child(2) {
+        animation-delay: 0.05s;
+    }
+    .article-list article:nth-child(3) {
+        animation-delay: 0.10s;
+    }
+    .article-list article:nth-child(4) {
+        animation-delay: 0.15s;
+    }
+    .article-list article:nth-child(n + 5) {
+        animation-delay: 0.20s;
+    }
+}
