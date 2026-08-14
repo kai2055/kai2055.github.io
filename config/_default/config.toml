@@ -26,7 +26,7 @@ description = "ML systems that don't just work — they stay working. MLOps & ML
 
   [params.sidebar]
   emoji = "🚀"
-  subtitle = "I build ML systems that don't just work — they stay working. MLOps · ML reliability · Berlin · Eligible to work in Germany (Werkstudent & internships)."
+  subtitle = "I build ML systems that stay working. ML reliability & MLOps, based in Berlin — open to Werkstudent and internship roles."
   compact = false
   avatar = "img/avatar.jpg"
 
